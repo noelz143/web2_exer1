@@ -3,7 +3,9 @@
 <head>
 	<title>condition example</title>
 </head>
-<body>
+<body bgcolor="#12344;">
+<center><div style="border: 1px solid black;height: 300px;width: 200px;border-radius: 20px; background-color: skyblue;">
+<br><br>
 <?php 
 $a = 5;
 if ($a = 5) {
@@ -35,12 +37,12 @@ switch ($letter) {
 	default:
 		echo "Not in the list";
 		# code...
-		break;
-}
+		break;}
 
  echo "</p>";
 ?>
-<br><a href="index.php"> back</a>  
+<br><br><br><br><a href="index.php"> <button style="font-size: 20px;border-radius: 12px;"> Back</button></a> 
+</div></center>
 
 </body>
 </html>
