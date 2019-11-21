@@ -1,3 +1,4 @@
+
 <?php
 if (isset($_REQUEST["name"] )|| isset( $_REQUEST["age"]) || isset($_REQUEST['pass'])) 
 	if (preg_match("/[^A-Za-z'-]/",$_REQUEST['pass'] )){
@@ -15,4 +16,4 @@ if (isset($_REQUEST["name"] )|| isset( $_REQUEST["age"]) || isset($_REQUEST['pas
 }
 
 	?>
-	<br><a href="index.php"> back</a>
+<center>	<a href="index.php"> <button style="font-size: 20px;border-radius: 12px;margin-left: 60px;margin-top: 300px; color: blue; "> Back</button></a></center>
