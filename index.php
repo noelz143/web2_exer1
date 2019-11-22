@@ -7,12 +7,14 @@
 			background-color: #4CAF50; 
   			color: white;
 		}
+		body{
+
+		background: url(goo.jpg);	
 		
-			
 		}
 	</style>
 </head>
-<body bgcolor="#12344;">
+<body background="goo.jpg">
 	<marquee ><h1 style="font-family: courier;color: red;">NOEL DE RAMOS</h1></marquee>
 	<br><br><br><div style="border: 1px solid black;height: 500px; width: 300px;margin-left: 500px;background-color:pink; border-radius: 20px;  ">
 	<center><h1 style="font-family: courier;"><?php echo "MY WORKS ";?></h1>
