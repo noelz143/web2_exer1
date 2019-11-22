@@ -7,6 +7,9 @@
 			background-color: #4CAF50; 
   			color: white;
 		}
+		body{
+			background: url(goo.jpg);
+		}
 	</style>
 </head>
 <body bgcolor="#12344;">
